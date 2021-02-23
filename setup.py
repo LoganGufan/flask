@@ -10,10 +10,10 @@ setup(
     name="Flask",
     version=version,
     install_requires=[
-        "Werkzeug>=0.15",
-        "Jinja2>=2.10.1",
-        "itsdangerous>=0.24",
-        "click>=5.1",
+        "Werkzeug>=0.15",       # WSGI规范的实用函数库
+        "Jinja2>=2.10.1",       # 模板引擎
+        "itsdangerous>=0.24",   # 生成临时身份令牌
+        "click>=5.1",           # 轻松将一个函数变成一个命令行工具
     ],
     extras_require={"dotenv": ["python-dotenv"]},
 )
